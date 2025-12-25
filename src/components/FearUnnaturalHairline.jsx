@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FearUnnaturalHairline() {
   return (
-    <section className="w-full bg-gradient-to-br from-white to-[#FFF8EF] py-20 lg:h-[80vh] flex items-start lg:items-center">
+    <section className="w-full bg-gradient-to-br from-white to-[#FFF8EF] py-20 lg:h-screen flex items-start lg:items-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
 

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AddressFears() {
   return (
-    <section className="w-full bg-white py-20 lg:h-[90vh] flex items-start lg:items-center relative">
+    <section className="w-full bg-white py-20 lg:h-screen flex items-start lg:items-center relative">
       <div className="absolute left-0 top-0 h-full w-1 bg-[#9E4A47]" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">

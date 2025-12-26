@@ -2,11 +2,11 @@ import React from "react";
 
 export default function AddressFears() {
   return (
-    <section className="w-full bg-white py-20 lg:h-screen flex items-start lg:items-center relative">
+    <section className="w-full bg-white py-24 relative">
       <div className="absolute left-0 top-0 h-full w-1 bg-[#9E4A47]" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
 
           {/* LEFT */}
           <div>
@@ -29,7 +29,6 @@ export default function AddressFears() {
               your long-term health.
             </p>
 
-            {/* CARDS */}
             <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6">
               {[
                 ["Will it Look Natural?", "Most hair transplants look unnatural and detectable."],
@@ -37,16 +36,16 @@ export default function AddressFears() {
               ].map(([title, desc], i) => (
                 <div
                   key={i}
-                  className="bg-gradient-to-br from-[#FFF8EF] to-white p-6 rounded-xl border border-[#DFDFDD] shadow-sm"
+                  className="bg-gradient-to-br from-[#FFF8EF] to-white p-6 rounded-xl border border-[#DFDFDD]"
                 >
                   <h4 className="font-semibold text-lg">{title}</h4>
                   <p className="mt-2 text-base text-[#828D9C]">{desc}</p>
                 </div>
               ))}
 
-              <div className="sm:col-span-2 bg-gradient-to-br from-[#FFF8EF] to-white p-6 rounded-xl border border-[#DFDFDD] shadow-sm">
+              <div className="sm:col-span-2 bg-gradient-to-br from-[#FFF8EF] to-white p-6 rounded-xl border border-[#DFDFDD]">
                 <h4 className="font-semibold text-lg">
-                  Side Effects of Procedure &amp; Medicines??
+                  Side Effects of Procedure & Medicines??
                 </h4>
                 <p className="mt-2 text-base text-[#828D9C]">
                   Will the procedure of transplant or the medicines cause permanent side-effects?
@@ -55,15 +54,19 @@ export default function AddressFears() {
             </div>
           </div>
 
-          {/* RIGHT IMAGE */}
+          {/* RIGHT IMAGE — BIG BUT SAFE */}
           <div className="flex justify-center">
-            <div className="w-full max-w-md  rounded-2xl overflow-hidden ">
-              <img
-                src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:1200/https://cdn.gamma.app/3pjpymp9a7vlfhg/a008a8df85ca417b9648133297fe2ca0/original/Medicine-Gone-Result-gone.png"
-                alt="Hair Restoration Journey"
-                className="w-full h-full object-cover"
-              />
-            </div>
+            <img
+              src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:1200/https://cdn.gamma.app/3pjpymp9a7vlfhg/a008a8df85ca417b9648133297fe2ca0/original/Medicine-Gone-Result-gone.png"
+              alt="Medicine Boosted Result"
+              className="
+                w-full
+                max-w-md
+                lg:max-w-lg
+                max-h-[650px]
+                object-contain
+              "
+            />
           </div>
 
         </div>

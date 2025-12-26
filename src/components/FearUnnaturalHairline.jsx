@@ -2,8 +2,8 @@ import React from "react";
 
 export default function FearUnnaturalHairline() {
   return (
-    <section className="w-full bg-gradient-to-br from-white to-[#FFF8EF] py-20 lg:h-screen flex items-start lg:items-center">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+    <section className="w-full bg-gradient-to-br from-white to-[#FFF8EF] py-24">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
 
           {/* TEXT */}
@@ -28,25 +28,32 @@ export default function FearUnnaturalHairline() {
               <li><strong>Customised</strong> — unique to your face & age</li>
               <li><strong>Natural undetectable results</strong> — a hairline that looks naturally yours, never artificial</li>
               <li><strong>Donor Preservation</strong> — created artistically using minimum grafts</li>
-              <li><strong>Age Appropriate</strong>  — Hairlines that match your stage of life, not a teenager's hairline on a 40-year-old face</li>
+              <li><strong>Age Appropriate</strong>  — Hairlines that match your stage of life, not a teenager's hairline on a 40-year-old facee</li>
             </ul>
           </div>
 
-          {/* VISUAL */}
-          <div className="flex flex-col items-center gap-8">
-            <div className="w-full  rounded-xl overflow-hidden border border-[#DFDFDD] shadow-lg">
-              <img
-                src="https://cdn.gamma.app/3pjpymp9a7vlfhg/7704b65657794fa7ac4bbdd01bc74601/original/Untitled-design-3.png"
-                alt="Hairline result"
-                className="w-full h-full object-cover"
-              />
-            </div>
+          {/* VISUAL (IMAGE + CAPTION) */}
+          <div className="flex flex-col items-center gap-6">
 
+            {/* BIG IMAGE */}
+            <img
+              src="https://cdn.gamma.app/3pjpymp9a7vlfhg/7704b65657794fa7ac4bbdd01bc74601/original/Untitled-design-3.png"
+              alt="Hairline result"
+              className="
+                w-full
+                max-w-md lg:max-w-lg
+                max-h-[650px]
+                object-contain
+              "
+            />
+
+            {/* ✅ CAPTION — RESTORED */}
             <div className="bg-[#DFDFF4] rounded-xl px-6 py-4 text-center shadow-sm max-w-sm">
               <p className="text-lg font-medium text-[#2B333C]">
                 Created Artistically with Science &amp; delivered with Love.
               </p>
             </div>
+
           </div>
 
         </div>
